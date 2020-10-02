@@ -65,7 +65,7 @@
     
     <div class="form-block">
         <label for="exampleFormControlSelect1">Select # of tweets to display:</label>
-        <select class="form-control" id="exampleFormControlSelect1">
+        <select class="form-control w-100" id="exampleFormControlSelect1">
           <option>1</option>
           <option>2</option>
           <option>3</option>
@@ -100,13 +100,13 @@
     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
     <label class="form-check-label" for="inlineRadio2">5</label>
   </div>
-      
-    <label class="form-row align-items-center" for="inlineFormInputName"> 
+  <form>
+    <label class="form-row align-items-center" for="inlineFormInputName" style="margin-top: 1rem;"> 
         Login to Finish Submitting
     </label>
-
-<div class="container"> 
-  <form>
+  
+  <div class="container" style="margin-top: 1rem;">   
+ 
     <div class="form-row align-items-center">
       <div class="col-sm-6 my-1">
         <input type="text" class="form-control" id="inlineFormInputName" placeholder="Username">
@@ -122,11 +122,9 @@
 </div>
 <div class="container">
     <br>
-    <a href="mypage_bootstrap.html"> 
-        <button type="submit" class="btn btn-primary">
-            Submit
-        </button>
-    </a>
+    <form action="mypage_bootstrap.html"> 
+        <input type="submit" value="Submit" class="btn btn-primary">
+      </form>
   </div>
 
   </body>
