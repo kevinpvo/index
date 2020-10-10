@@ -1,0 +1,67 @@
+/* Add any css you want to use for you website here */
+
+body {
+  font-size: 1rem;
+  /* margin: 1rem; */
+/* default is 1rem or 16px */
+}
+
+table, td, th{
+  /* border: 1px solid lightgray; */
+  /* padding: 1rem; */
+  border: 1px solid rgb(170, 170, 166);
+  padding: 1px;
+}
+
+#margin-top {
+  margin-top: 2rem;
+}
+
+/* images crop to fit size */
+.cardimg {
+  object-fit: cover;
+  height: 180px;
+}
+.caroimg {
+  object-fit: cover;
+  height: 500px;
+}
+.carousel-caption{  
+  background-color: ghostwhite;
+  opacity: 75%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+footer {
+  display: flex;
+  padding: 1rem;
+  justify-content: center; /* horizontal align */
+  width: 100%;
+  height: auto;
+  background-color: black; /* ignore, for demo */
+}
+
+#linkedin{
+  display: flex;
+  justify-content: center; /* horizontal align */
+}
+
+.btn-circle.btn-sm { 
+  width: 30px; 
+  height: 30px; 
+  padding: 6px 0px; 
+  margin: 3px;
+  border-radius: 15px; 
+  font-size: 8px; 
+  text-align: center; 
+}
+.card-body{
+  padding: none;
+}
+
+
+
+
+
+
+
