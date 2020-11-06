@@ -5,6 +5,9 @@ body {
   /* margin: 1rem; */
 /* default is 1rem or 16px */
 }
+#gallery{
+  background-color: lightgrey;
+}
 
 table, td, th{
   /* border: 1px solid lightgray; */
